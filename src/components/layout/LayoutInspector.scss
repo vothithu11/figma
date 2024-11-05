@@ -1,0 +1,16 @@
+@import "../../colors.scss";
+.layout{
+    width: 212px;
+    margin: 20px auto 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    .title{
+        padding: 8px 0;
+        display: flex;
+        justify-content: space-between;
+        font-weight: 400px;
+        font-size: 15px;
+        color: $textGrayDark;
+    }
+}

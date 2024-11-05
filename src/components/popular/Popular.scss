@@ -1,0 +1,64 @@
+@import "../../colors.scss";
+.popular{
+    width: 320px;
+    height: 152px;
+    border-radius: 20px;
+    position: relative;
+    border: 1px solid $textGray;
+    .photo{
+        width: 167px;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        z-index: 1;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+    .description{
+        position: absolute;
+        padding: 20px 20px 12px 48px;
+        z-index: 2;
+        width: 220px;
+        height: 152px;
+        right: 0;
+        background-color: $bgCard;
+        border-radius: 20px;       
+        .avatar {
+            position: absolute; 
+            left: -15%;           
+            top: 50%;          
+            transform: translateY(-50%);
+            width: 78px;      
+            height: 78px;     
+        }
+        .descriptionMain{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            h1{
+                font-size: 22px;
+                font-weight: 600;
+                font-family: "Roboto Condensed", sans-serif;
+            }
+            p{
+                font-size: 13px;
+                color: $textGray;
+            }
+            
+            .rightDescription{
+                font-size: 12px;
+                display: flex;
+                align-items: center;
+                gap: 4px;
+                color: $textGrayDark;
+                .iconBtn{
+                    width: 14px;
+                    height: 14px;
+                }
+            }
+        }
+        
+    }
+}
