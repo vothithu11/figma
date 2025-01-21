@@ -30,10 +30,10 @@ function SideMenu() {
               <img src="./img/tech.png" alt="img" />
               <span>Home</span>
             </div>
-            <div className="item">
+            <button className="item">
               <img src="./img/tech.png" alt="img" />
               <span>Music</span>
-            </div>
+            </button>
             <div className="item">
               <img src="./img/tech.png" alt="img" />
               <span>Gaming</span>
